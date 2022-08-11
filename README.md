@@ -67,7 +67,7 @@ Store MongoDB connection information in `appsettings.json` file.
 
 Add the following  `IStudentStoreDatabaseSettings.cs` files in the Models folder. This interface and the class provide strongly typed access to MongoDB connection information.
 
-### IStudentStoreDatabaseSettings.cs
+### EmployeeDatabasesetting.cs
 ```C#
  public class EmployeeDatabasesetting : IEmployeeDatabaseSettings
     {

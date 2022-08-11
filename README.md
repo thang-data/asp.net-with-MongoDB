@@ -14,7 +14,7 @@ We discussed What is `Swagger and OpenAPI specification` in detail in Parts 29 a
 ## Install MongoDB.Driver nuget package
 ![image](https://user-images.githubusercontent.com/87810853/184073844-27024d93-bb4f-4d82-aa9c-3b03e1dbb122.png)
 ## Map MongoDB to C# objects
-Add `Models` folder and place the following `Employee.cs` class file in it. When student data is retrieved from Mongo, the JSON data is mapped to this `Student` class in .NET and vice-versa.
+Add `Models` folder and place the following `Employee.cs` class file in it. When employee data is retrieved from Mongo, the JSON data is mapped to this `Employee` class in .NET and vice-versa.
 ```C#
 [BsonIgnoreExtraElements]
     public class Employee
@@ -65,7 +65,7 @@ Store MongoDB connection information in `appsettings.json` file.
 
 ![image](https://user-images.githubusercontent.com/87810853/184075019-302a7825-cf25-4380-9e7b-aace54deab95.png)
 
-Add the following  `IStudentStoreDatabaseSettings.cs` files in the Models folder. This interface and the class provide strongly typed access to MongoDB connection information.
+Add the following  `IEmployeeStoreDatabaseSettings.cs` files in the Models folder. This interface and the class provide strongly typed access to MongoDB connection information.
 
 ### EmployeeDatabasesetting.cs
 ```C#
